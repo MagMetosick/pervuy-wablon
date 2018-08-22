@@ -1,0 +1,118 @@
+/*Спецификация*/
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  width: 75%;
+}
+p {
+  margin: 0;
+}
+h6{
+  font-size: 15px;
+  line-height: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+/*первый  блок*/
+header  {
+  background: url(../img/1.jpg) no-repeat center ;
+  height: 600px;
+}
+/*второй  блок*/
+.conteiner{
+ width: 100%;
+ height: 350px;
+ display: grid;
+ grid-template-rows: 1fr 1fr 1fr 1fr;
+ position: absolute;
+ top: 475px;
+}
+.block{
+ text-align: center;
+ border-bottom: 5px blue solid;
+ border-left: 2px grey solid ;
+ border-top:2px grey solid;
+ border-right:2px grey solid;
+}
+.block1{
+}
+.block2{
+  grid-column: 2/3;
+}
+.block3{
+  grid-column: 3/4;
+}
+.block4{
+  grid-column: 4/5;
+}
+.block5{
+  grid-column: 5/6;
+}
+.block6{
+  grid-column: 6/7;
+}
+/*третий  блок*/
+.img{
+ background: url(../img/2.jpg) no-repeat center ;
+ height: 600px;
+ background-size: 100%;
+}
+/*четвертый блок*/
+.Sehr_geehrte_Patienten___wir_freuen_uns__dass_S {
+  font-size: 16px;
+  font-family: Times New Roman;
+  color: rgb(85, 85, 85);
+  text-align: left;
+  -moz-transform: matrix( 0.957311535971,0,0,0.98181753676405,0,0);
+  -webkit-transform: matrix( 0.957311535971,0,0,0.98181753676405,0,0);
+  -ms-transform: matrix( 0.957311535971,0,0,0.98181753676405,0,0);
+  position: absolute;
+  left: 50px;
+  width: 520px;
+  height: 250px;
+  z-index: 6;
+
+}
+.Sprechzeiten__Zahnarztpraxis_Dr__Dr__Chmelitsch {
+  font-size: 16px;
+  font-family: Georgia;
+  color: rgb(51, 51, 51);
+  text-align: left;
+  position: absolute;
+  left: 800px;
+  width: 300px;
+  height: 147px;
+  z-index: 5;
+}
+.Zahnarztpraxis_Chmelitschek_©_2011 {
+  font-size: 12px;
+  font-family: Arial;
+  color: red;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  top: 1600px;
+  width: 195px;
+  height: 11px;
+  z-index: 7;
+}
